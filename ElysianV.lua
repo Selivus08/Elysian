@@ -7,5 +7,6 @@ elseif placeId == 71895508397153 then
 else
 _G.Config = { ["Theme"] = "spotify" }
 local Notifs = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Selivus08/Elysian/refs/heads/main/notification.lua", true))();
+warn("Game is not supported")
 Notifs:Notify(nil, "this game is not supported by elysian", "error", 3);
 end

@@ -8,6 +8,8 @@ elseif placeId == 16483433878 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Selivus08/Elysian/refs/heads/main/blocktales.lua",true))()
 elseif placeId == 13559635034 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Selivus08/Elysian/refs/heads/main/combatinitiation.lua",true))()
+elseif placeId == 14582748896 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Selivus08/Elysian/refs/heads/main/combatinitiation.lua",true))()
 else
 _G.Config = { ["Theme"] = "spotify" }
 local Notifs = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Selivus08/Elysian/refs/heads/main/notification.lua", true))();
